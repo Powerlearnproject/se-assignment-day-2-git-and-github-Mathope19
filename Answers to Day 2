@@ -1,0 +1,64 @@
+Question 1
+1. Repository: A central storage location for all project files and their version history. 
+Think of it as a database that stores snapshots of your project at different points in time. 
+Repositories can be local (on your computer) or remote (hosted on a server). 
+2. Commit: A snapshot of the project's current state, representing a set of changes made to the files. 
+Each commit includes a message describing the changes, along with metadata like author and timestamp. 
+Commits are the building blocks of a project's version history. 
+3. Branch: A separate line of development that allows developers to work on new features or bug fixes without affecting the main codebase.
+Think of it as a temporary fork of the main branch, where changes can be made and tested independently.
+Branches can be merged back into the main branch once the work is complete and tested. 
+4. Merge: The process of combining changes from one branch into another.
+This allows developers to integrate their work into the main codebase.
+Merges can sometimes lead to conflicts if changes in different branches affect the same parts of the files. 
+5. Pull: Fetching and merging changes from a remote repository into your local repository.
+This ensures that your local copy is up-to-date with the latest changes. 
+6. Push: Sending your local changes to a remote repository.
+This allows other developers to access and work with your changes. 
+7. Conflict: A situation that occurs when two or more developers make conflicting changes to the same parts of a file.
+Version control systems can detect conflicts and require manual resolution to determine which changes should be kept. 
+GitHub is popular becuase it is a cloud-based platform where developers can store and manage their Git repositories.
+
+Question 2
+1. Create a GitHub Account
+2. Click the "+" sign next to your profile picture in the top right corner and select "New repository".
+   Name your repository .
+   Add an optional description .
+   Choose repository visibility: (public or private).
+   Optionally, initialize the repository with a README .
+   Click "Create repository"
+3. Create a README - if you want to provide information about your project, such as instructions on how to use it or contribute to it
+4. Create a .gitignore file:
+5. Push your local code to the remote repository
+
+Question 3
+1. Its important because it is a concise guide, providing users and collaborators with essential information about the project's purpose, functionality, and how to use it, including installation, usage, and contribution guidelines. 
+
+Question 4
+1. A public repository is accessible to anyone on the internet, while a private repository is only accessible to the owner and collaborators they explicitly grant access to.
+   Public reps are advantageous because they allow Accessibility, Ideal for open-source projects, however they are Less secure as anyone can access the code, so sensitive information should be avoided.
+   Private reps are advantageous because they are restricted to the owner and invited collaborators, Protects sensitive data, proprietary code, and allows for controlled collaboration within a team, More secure as access is controlled, allowing for better management of sensitive information.
+
+Question 5
+Create a directory to contain the project.
+Go into the new directory.
+Type git init.
+Write some code.
+Type git add to add the files (see the typical use page).
+Type git commit.
+a commit records changes to one or more files in your branch.
+
+Question 6 
+Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes.
+Branching means you diverge from the main line of development and continue to do work without messing with that main line.
+
+Question 7
+Pull requests display the differences, or diffs, between the content in the source branch and the content in the target branch.
+collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase. 
+
+Question 8 
+A fork is a new repository that shares code and visibility settings with the original “upstream” repository.
+forking creates a copy of a repository under your own account on a remote hosting service like GitHub, while cloning creates a local copy of a repository on your machine.
+
+Question 9
+They are crucial for project management and collaboration, allowing teams to track bugs, manage tasks, and organize projects effectively through a visual and integrated system
